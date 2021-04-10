@@ -12,7 +12,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    cplor:var(--accent-text-color);
+    color:var(--accent-text-color);
 }
 
 .header {
@@ -31,7 +31,31 @@ body {
     line-height: 16px;
 }
 
-a {
+.hero{
+    background-color:var(--accent-background-title-color);
+    width: 1600px;
+    height: 600px;
+    
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    color:var(--secondary-text-color);
+    
+}
+
+.hero-button {
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    text-align: center;
+}
+
+/*a {
     color: #212121;
     text-decoration: none;
 }
