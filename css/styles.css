@@ -2,17 +2,20 @@
     --accent-background-title-color: #2F303A;
     --accent-background-footer-color: #2F303A;
     --accent-background-our-team-color: #F5F4FA;
-    --primary-text-color: #212121;
-    --secondary-text-color: #FFFFFF;
     --primary-background-color: #F5F4FA;
     --secondary-background-color: #2196F3;
+    
     --accent-text-color: #757575;
-
+    --primary-text-color: #212121;
+    --secondary-text-color: #FFFFFF;
+    
+    --main-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color:var(--accent-text-color);
+    font-family: var(--main-font);
+    /* color:var(--accent-text-color); */
 }
 
 .header {
@@ -20,7 +23,7 @@ body {
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--logo-font);
     font-size: 26px;
     line-height: 31px;
 }
