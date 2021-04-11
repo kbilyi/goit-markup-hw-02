@@ -48,15 +48,8 @@ body {
 
 }
 
-/* .container {
-    background-color:var(--accent-background-title-color);
-    width: 1600px;
-    height: 600px;
-} */
-
 .hero-title {
     font-family: var(--main-font);
-    width: 1900px;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
@@ -107,7 +100,6 @@ body {
 }
 
 .our-team {
-    width: 1600px;
     padding: 0px 0px 0px 0px;
     background: var(--primary-background-color);
 }
@@ -166,6 +158,14 @@ button:focus {
     color: white;
     background-color:#2196F3;
 }
+
+.place {
+    font-size: 14px;
+    line-height:1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
  .footer {
     background: var(--accent-background-footer-color);
  }
