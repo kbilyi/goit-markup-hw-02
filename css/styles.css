@@ -21,6 +21,24 @@ body {
     letter-spacing: 0.03em;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+margin: 0;
+padding: 0;
+}
+
 .header {
     background: var(--secondary-text-color);
 }
@@ -150,6 +168,10 @@ li {
     line-height: 1.62px;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+button {
+    display: block;
 }
 
 button:hover {
