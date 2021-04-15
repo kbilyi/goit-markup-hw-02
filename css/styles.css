@@ -67,14 +67,14 @@ padding: 0;
 
 .hero{
     background-color:var(--accent-background-title-color);
-
+    text-align: center; 
 }
 
 .hero-title {
     font-family: var(--main-font);
     font-size: 44px;
+    margin-bottom: 30px;
     line-height: 1.36;
-    text-align: center;
     color:var(--secondary-text-color);
     letter-spacing: 0.06em;
 }
