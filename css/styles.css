@@ -67,16 +67,18 @@ padding: 0;
 
 .hero{
     background-color:var(--accent-background-title-color);
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 94px;
 }
 
 .hero-title {
     font-family: var(--main-font);
     font-size: 44px;
-    margin-bottom: 30px;
+    padding: 200px 452px 200px 452px;
     line-height: 1.36;
     color:var(--secondary-text-color);
     letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .hero-button {
@@ -84,10 +86,11 @@ padding: 0;
     height: 50px;
     border-radius: 4px;
     padding: 10px 32px 10px 32px;
+    margin-right: auto;
+    margin-left: auto;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     border: none;
     cursor: pointer;
@@ -103,6 +106,8 @@ padding: 0;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
 }
 
@@ -110,8 +115,9 @@ padding: 0;
 .services-title {
     font-size: 36px;
     line-height: 1.16;
-    /* text-align: center; */
+    text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 94px;
     color: var(--primary-text-color);
 }
 
@@ -119,7 +125,9 @@ padding: 0;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: 0.03em;
-    /* text-align: center; */
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
     color: var(--primary-text-color);
 }
 
@@ -133,6 +141,8 @@ padding: 0;
     line-height: 1.18;
     letter-spacing: 0.03em;
     /* text-align: center; */
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
 
 }
@@ -225,4 +235,5 @@ button:focus {
 
  .footer {
     background: var(--accent-background-footer-color);
+    margin-top: 94px;
  }
