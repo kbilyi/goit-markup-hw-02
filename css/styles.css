@@ -105,6 +105,10 @@ img {
     display: block;
 }
 
+.about-list {
+    display: flex;
+}
+
 .about-subtitle {
     width: 270px;
     height: 16px;
