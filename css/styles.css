@@ -54,6 +54,7 @@ img {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-left: 215px;
 }
 
 .logo-color {
@@ -62,6 +63,7 @@ img {
 
 .main-nav {
     display: flex;
+    align-items: center;
 }
 
 .header-link {
@@ -73,6 +75,7 @@ img {
 
 .header-links {
     display: flex;
+    margin-left: 93px;
 }
 
 .header-links .item {
@@ -90,6 +93,7 @@ img {
     display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
+    margin-left: 331px;
 }
 
 .header-contacts .item + .item {
