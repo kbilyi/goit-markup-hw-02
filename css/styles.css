@@ -46,6 +46,7 @@ img {
 
 .header {
     background: var(--secondary-text-color);
+    display: flex;
 }
 
 .logo {
@@ -59,11 +60,40 @@ img {
     color:var(--secondary-background-color);
 }
 
+.main-nav {
+    display: flex;
+}
+
 .header-link {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links .item {
+    margin-right: 50px;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-links .item:last-child {
+    margin-right: 0px;
+}
+
+.header-contacts {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header-contacts .item + .item {
+     margin-left: 50px;
 }
 
 .contacts {
