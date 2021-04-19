@@ -214,6 +214,7 @@ img {
     margin-top: 94px;
     margin-bottom: 50px;
     color: var(--primary-text-color);
+    padding-top: 94px;
 }
 
 .our-team {
@@ -287,6 +288,15 @@ li {
 
 
 /* ------------------------------------КНОПКИ ФИЛЬТРА------------------------ */
+
+.filter {
+    margin-top: 56px;
+}
+
+.filter-buttons {
+    margin-top: 94px;
+}
+
 .filter-button {
     min-width: 73px;
     height: 38px;
@@ -333,14 +343,24 @@ button:hover {
 .filter-list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+
+.filter-list li {
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .container-set {
     width: 370px;
     height: 404px;
+    text-align: center;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
+    flex-basis: calc((100% - 3) / 3);
 }
 /* -------------------------------------ВСЕ КНОПКИ------------------------------ */
 
@@ -374,4 +394,5 @@ button:focus {
 
  .footer {
     background: var(--accent-background-footer-color);
+    margin-top: 64px;
  }
