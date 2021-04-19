@@ -227,6 +227,11 @@ img {
     justify-content: center;
 }
 
+.title-filter {
+    margin-top: 20px;
+    margin-bottom: 4px;
+}
+
 .name {
     font-size: 16px;
     line-height: 1.18;
@@ -291,6 +296,7 @@ li {
 
 .filter {
     margin-top: 56px;
+    margin-bottom: 64px;
 }
 
 .filter-buttons {
@@ -389,10 +395,13 @@ button:focus {
 
 .footer .address {
     margin-left: 215px;
+    margin-top: 20px;
 }
 
+.footer li {
+    margin-top: 9px;
+}
 
  .footer {
     background: var(--accent-background-footer-color);
-    margin-top: 64px;
  }
