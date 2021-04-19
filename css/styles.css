@@ -44,10 +44,7 @@ img {
     max-width: 100%;
 }
 
-.header {
-    background: var(--secondary-text-color);
-    display: flex;
-}
+/* -----------------------------ЛОГОТИП--------------------- */
 
 .logo {
     font-family: var(--logo-font);
@@ -61,13 +58,24 @@ img {
     color:var(--secondary-background-color);
 }
 
+/* --------------------------МЕЙН-------------------------- */
+
 .main-nav {
     display: flex;
     align-items: center;
 }
 
+/* ----------------------------------ХЕДЕР---------------------------- */
+
+.header {
+    background: var(--secondary-text-color);
+    display: flex;
+    border: 1px solid #ECECEC;
+}
+
 .header-link {
     font-size: 14px;
+    font-weight:bold;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
@@ -91,9 +99,11 @@ img {
 
 .header-contacts {
     display: flex;
+    font-weight:bold;
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-left: 331px;
+    margin-left: auto;
+    margin-right: 215px;
 }
 
 .header-contacts .item + .item {
@@ -103,6 +113,8 @@ img {
 .contacts {
     color: var(--accent-text-color);
 }
+
+/* --------------------------ЗАГОЛОВОК И КНОПКА------------------------- */
 
 .hero{
     background-color:var(--accent-background-title-color);
@@ -139,12 +151,25 @@ img {
     display: block;
 }
 
+/* ----------------------------О НАС ------------------------ */
+
 .about-list {
     display: flex;
+    justify-content: center;
 }
 
-.about-subtitle {
+.about-list li {
     width: 270px;
+    height: 75px;
+    margin-right: 30px;
+    align-items: center;
+}
+
+.about-list li:last-child {
+    margin-right: 0px;;
+}
+ 
+.about-subtitle {
     height: 16px;
     font-size: 14px;
     line-height: 1.14;
@@ -154,6 +179,7 @@ img {
     color: var(--primary-text-color);
 }
 
+/* --------------------------ЧЕМ мы занимаемся------------------------------- */
 
 .services-title {
     font-size: 36px;
@@ -167,13 +193,19 @@ img {
 .services-list {
     display: flex;
     margin-top: 50px;
+    justify-content: center;
 }
 
 .services-img {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin-right: 30px;
 }
 
+.services-img:last-child {
+    margin-right: 0px;
+}
+
+/* ------------------------------Наша команда----------------------------- */
 .our-team-title {
     font-size: 36px;
     line-height: 1.16;
@@ -191,14 +223,13 @@ img {
 
 .our-team-list {
     display: flex;
-    
+    justify-content: center;
 }
 
 .name {
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
-    /* text-align: center; */
     margin-bottom: 10px;
     color: var(--primary-text-color);
 }
@@ -209,14 +240,17 @@ img {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-    margin-left: auto;
-    margin-right: auto;
     margin-bottom: 94px;
+    margin-right: 30px;
+}
+
+.card-in-case:last-child {
+    margin-right: 0px;
 }
 
 .name-work {
     min-width: 137px;
-    padding: 30px 66px;
+    padding: 30px;
     text-align: center;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -228,6 +262,8 @@ img {
 address {
     font-style: inherit;
 }
+
+/* ----------------------------------------ССЫЛКИ------------------------------- */
 
 a {
     color: var(--primary-text-color);
@@ -247,6 +283,10 @@ li {
     list-style: none;
 }
 
+/* -------------------------------------КНОПКИ--------------------------- */
+
+
+/* ------------------------------------КНОПКИ ФИЛЬТРА------------------------ */
 .filter-button {
     min-width: 73px;
     height: 38px;
@@ -257,13 +297,20 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62px;
-    text-align: center;
     letter-spacing: 0.03em;
-    display: block;
 }
 
-button {
-    display: block;
+.filter-button-list {
+    display: flex;
+    justify-content: center;
+} 
+
+.filter-button-list li {
+    margin-right: 8px;
+}
+
+.filter-button-list li:last-child {
+    margin-right: 0px;
 }
 
 button:hover {
@@ -276,25 +323,42 @@ button:hover {
     border-radius: 4px;
 }
 
-button:focus {
-    color: white;
-    background-color:#2196F3;
-}
-
-.container {
-    width: 370px;
-    height: 404px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-    box-sizing: border-box;
-}
-
 .title-filter { 
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
 }
+
+.filter-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-set {
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+/* -------------------------------------ВСЕ КНОПКИ------------------------------ */
+
+button:focus {
+    color: white;
+    background-color:#2196F3;
+}
+
+/* -------------------------------ФУТЕР--------------------------------- */
+
+.logo-footer {
+    color:var(--secondary-text-color);
+    font-family: var(--logo-font);
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-left: 215px;
+} 
 
 .place {
     font-size: 14px;
@@ -303,13 +367,10 @@ button:focus {
     color: var(--secondary-text-color);
 }
 
-.logo-footer {
-    color:var(--secondary-text-color);
-    font-family: var(--logo-font);
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-} 
+.footer .address {
+    margin-left: 215px;
+}
+
 
  .footer {
     background: var(--accent-background-footer-color);
