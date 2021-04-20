@@ -66,6 +66,11 @@ img {
     letter-spacing: 0.03em;
 }
 
+.logo:not(.nohover):hover,
+.logo:not(.nofocus):focus {
+color: var(--primary-text-color);
+}
+
 .logo-color {
     color:var(--secondary-background-color);
 }
@@ -404,11 +409,17 @@ button:focus {
     letter-spacing: 0.03em;
 } 
 
+.logo-footer:not(.nohover):hover,
+.logo-footer:not(.nofocus):focus {
+color: var(--primary-text-color);
+}
+
+
 .place {
     font-size: 14px;
     line-height:1.71;
     letter-spacing: 0.03em;
-    color: var(--secondary-text-color);
+    color: var(--primary-background-color);
 }
 
 .footer-info {
