@@ -12,11 +12,12 @@
 </head>
 <body>
   <header class="header">
-    <nav class="main-container main-nav">
+    <div class="container header-page">
+    <nav class="main-nav">
       <a class='logo' href="index.html"><span class="logo-color">Web</span>Studio</a>
       <ul class="header-links">
         <li class="item"><a href="index.html" class="header-link">Студия</a></li>
-        <li class="item"><a href="" class="header-link">Портфолио</a></li>
+        <li class="item"><a href="portfolio.html" class="header-link">Портфолио</a></li>
         <li class="item"><a href="" class="header-link">Контакты</a></li>
       </ul>
     </nav>
@@ -24,18 +25,18 @@
         <li class="item"><a class="contacts">info@devstudio.com</a></li>
         <li class="item"><a class="contacts">+380961111111</a></li>
       </ul>
+    </div>
   </header>
-    <section class="filter-buttons">
-        <ul class="filter-button-list">
-            <li><button class="filter-button">Все</button></li>
-            <li><button class="filter-button">Веб-сайты</button></li>
-            <li><button class="filter-button">Приложения</button></li>
-            <li><button class="filter-button">Дизайн</button></li>
-            <li><button class="filter-button">Маркетинг</button></li>
-        </ul>
-    </section>
     <main>
-        <section class="filter">
+        <section class="section">
+          <div class="container">
+            <ul class="filter-button-list">
+              <li><button class="filter-button">Все</button></li>
+              <li><button class="filter-button">Веб-сайты</button></li>
+              <li><button class="filter-button">Приложения</button></li>
+              <li><button class="filter-button">Дизайн</button></li>
+              <li><button class="filter-button">Маркетинг</button></li>
+          </ul>
             <ul class="filter-list">
                 <li class="container-set">
                   <img src="images/portfolio/laptop.jpg" width="370" height="294" alt="">
@@ -83,9 +84,11 @@
                     <p>Приложение</p>
                 </li>
               </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+      <div class=" footer-info container">
       <a class='logo-footer' href="index.html"><span class="logo-color">Web</span>Studio</a>
       <address class="address">
       <p class="place">г. Киев, пр-т Леси Украинки, 26</p>
@@ -94,6 +97,7 @@
         <li><a class="contacts" href="">+380961111111</a></li>
       </ul>
       </address>
+    </div>
     </footer>
 </body>
 </html>
