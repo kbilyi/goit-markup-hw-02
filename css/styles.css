@@ -346,18 +346,21 @@ button:hover {
     color: var(--primary-text-color);
 }
 
-.filter-list {
+ .filter-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-left: 215px;
     margin-right: 215px;
+    flex-basis: calc(100% / 3);
 }
 
-.filter-list li {
+.filter-list > .container-set {
     margin-right: 30px;
     margin-bottom: 30px;
 }
+
+/* .filter-list > .container-set: */
 
 .container-set {
     width: 370px;
@@ -366,8 +369,9 @@ button:hover {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-    flex-basis: calc((100% - 3) / 3);
 }
+
+
 /* -------------------------------------ВСЕ КНОПКИ------------------------------ */
 
 button:focus {
@@ -405,3 +409,9 @@ button:focus {
  .footer {
     background: var(--accent-background-footer-color);
  }
+
+
+
+
+
+
