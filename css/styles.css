@@ -137,8 +137,16 @@ color: var(--primary-text-color);
 /* --------------------------ЗАГОЛОВОК И КНОПКА------------------------- */
 
 .hero{
-    background-image: url(../images/);
+    background: var(--accent-background-title-color);
+    background-image: linear-gradient(
+        to right,
+        rgba(0,0, 0, 0.3),
+        rgba(0,0, 0, 0.3)
+    ),
+    url(../images/backgroundhero.jpg);
     text-align: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .page-hero {
