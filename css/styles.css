@@ -140,8 +140,8 @@ color: var(--primary-text-color);
     background: var(--accent-background-title-color);
     background-image: linear-gradient(
         to right,
-        rgba(0,0, 0, 0.3),
-        rgba(0,0, 0, 0.3)
+        rgba(0,0, 0, 0.4),
+        rgba(0,0, 0, 0.4)
     ),
     url(../images/backgroundhero.jpg);
     text-align: center;
