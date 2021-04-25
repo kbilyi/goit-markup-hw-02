@@ -202,6 +202,17 @@ color: var(--primary-text-color);
 .about-list li:last-child {
     margin-right: 0px;;
 }
+
+.item::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background: var(--accent-background-our-team-color);
+}
+
+.icon-antena::before {
+    background-image:url()
+}
  
 .about-subtitle {
     height: 16px;
