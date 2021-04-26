@@ -8,6 +8,7 @@
     --accent-text-color: #757575;
     --primary-text-color: #212121;
     --secondary-text-color: #FFFFFF;
+    --svg-primary-color: #AFB1B8;
     
     --main-font: 'Roboto', sans-serif;
     --logo-font: 'Raleway', sans-serif;
@@ -119,6 +120,21 @@ color: var(--primary-text-color);
     margin-right: 0px;
 }
 
+.adress-icon {
+    width: 16px;
+    height: 12px;
+    stroke: currentColor;
+    margin-right: 20px;
+}
+
+.contacts-item {
+
+}
+
+.address-link {
+    display: flex;
+    align-items: center;
+}
 
 .header-contacts {
     display: flex;
@@ -261,6 +277,39 @@ color: var(--primary-text-color);
     text-align: center;
     margin-bottom: 50px;
     color: var(--primary-text-color);
+}
+
+/* ----------------------------SVG--------------------------------- */
+.social-icons-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.socials-icons {
+    display: inline-flex;
+}
+
+.socials-icons-svg {
+    width: 20px;
+    height: 20px;
+    fill: var(--svg-primary-color);
+}
+
+.socials-icons-link:hover {
+    background-color: var(--secondary-background-color);
+}
+
+.socials-icons-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socials-icons-link:hover .socials-icons-svg,
+.socials-icons-link:focus .socials-icons-svg {
+    fill: var(--secondary-text-color);
 }
 
 .our-team {
