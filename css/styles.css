@@ -203,10 +203,11 @@ color: var(--primary-text-color);
     margin-right: 0px;;
 }
 
-.item::before {
+.about-list .item::before {
     display: block;
     content: "";
     height: 120px;
+    margin-bottom: 30px;
     background: var(--accent-background-our-team-color);
 }
 
