@@ -456,6 +456,37 @@ button:hover {
     box-sizing: border-box;
 }
 
+.regular-clients-hero{
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 94px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+ .regular-clients-list {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+ }
+
+ .regular-clients {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 94px;
+    margin-right: 30px;
+ }
+
+.regular-clients-svg {
+    color: var(--svg-primary-color);
+    margin-left: 64px;
+    margin-top: 24px;
+}
+
 
 /* -------------------------------------ВСЕ КНОПКИ------------------------------ */
 
