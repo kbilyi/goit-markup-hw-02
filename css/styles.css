@@ -219,16 +219,18 @@ color: var(--primary-text-color);
     margin-right: 0px;;
 }
 
-.about-list .item::before {
+.our-privilege {
     display: block;
-    content: "";
     height: 120px;
-    margin-bottom: 30px;
     background: var(--accent-background-our-team-color);
+    margin-bottom: 30px;
 }
 
-.icon-antena::before {
-    background-image:url()
+.our-privilege-item {
+    width: 65px ;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: 102px;
 }
  
 .about-subtitle {
