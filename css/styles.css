@@ -282,6 +282,17 @@ color: var(--primary-text-color);
 }
 
 /* ----------------------------SVG--------------------------------- */
+
+.regular-clients:hover {
+    border: 1px solid var(--secondary-background-color);;
+    box-sizing: border-box;
+    fill: var(--secondary-background-color);
+}
+
+.regular-clients:focus {
+    
+}
+
 .social-icons-item:not(:last-child) {
     margin-right: 10px;
 }
