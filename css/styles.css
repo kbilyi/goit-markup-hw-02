@@ -312,20 +312,21 @@ color: var(--primary-text-color);
  }
 
 .regular-clients-svg {
-    color: var(--svg-primary-color);
     margin-left: 64px;
     margin-top: 24px;
+    fill: currentColor;
 }
 
 .regular-clients:hover {
-    border: 1px solid var(--secondary-background-color);;
+    border: 1px solid var(--secondary-background-color);
     box-sizing: border-box;
+    fill: currentColor;
 }
 
-.regular-clients-svg:hover {
+.regular-clients-link:hover regular-clients-svg, 
+.regular-clients-link:hover regular-clients-svg {
     fill: var(--secondary-background-color);
 }
-
 
 .social-icons-item:not(:last-child) {
     margin-right: 10px;
