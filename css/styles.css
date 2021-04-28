@@ -314,13 +314,11 @@ color: var(--primary-text-color);
 .regular-clients-svg {
     margin-left: 64px;
     margin-top: 24px;
-    fill: currentColor;
 }
 
 .regular-clients:hover {
     border: 1px solid var(--secondary-background-color);
     box-sizing: border-box;
-    fill: currentColor;
 }
 
 .regular-clients-link:hover regular-clients-svg, 
