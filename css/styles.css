@@ -123,12 +123,8 @@ color: var(--primary-text-color);
 .adress-icon {
     width: 16px;
     height: 12px;
-    stroke: currentColor;
+    fill: currentColor;
     margin-right: 20px;
-}
-
-.contacts-item {
-
 }
 
 .address-link {
@@ -314,6 +310,7 @@ color: var(--primary-text-color);
 .regular-clients-svg {
     margin-left: 64px;
     margin-top: 24px;
+    fill: var(--svg-primary-color);
 }
 
 .regular-clients:hover {
