@@ -279,29 +279,33 @@ color: var(--primary-text-color);
 
 /* ----------------------------SVG--------------------------------- */
 
+.section-regular-clients {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 .regular-clients-hero{
     font-size: 36px;
     line-height: 42px;
-    margin-top: 94px;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
- .regular-clients-list {
+.regular-clients-list {
     display: flex;
-    margin-top: 50px;
     justify-content: center;
- }
+}
 
- .regular-clients {
+ .regular-clients-link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
-    box-sizing: border-box;
     border-radius: 4px;
-    margin-bottom: 94px;
+    margin-top: 50px;
+    color: var(--svg-primary-color);
  }
+
 
  .regular-clients-item:not(:last-child){
     margin-right: 30px;
@@ -309,20 +313,22 @@ color: var(--primary-text-color);
 
 .regular-clients-svg {
     margin-left: 64px;
-    margin-top: 24px;
-    fill: var(--svg-primary-color);
+    margin-top: 24px;  
+    fill: currentColor;
 }
 
-.regular-clients:hover {
+.regular-clients-link:hover,
+.regular-clients-link:focus {
     border: 1px solid var(--secondary-background-color);
     box-sizing: border-box;
 }
 
-.regular-clients-link:hover regular-clients-svg, 
-.regular-clients-link:hover regular-clients-svg {
+.regular-clients-link:hover .regular-clients-svg, 
+.regular-clients-link:focus .regular-clients-svg {
     fill: var(--secondary-background-color);
 }
 
+/* -------------------------------------------------------- */
 .social-icons-item:not(:last-child) {
     margin-right: 10px;
 }
@@ -537,6 +543,10 @@ color: var(--secondary-text-color);
 .footer-info {
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer {
+    display: flex;
 }
 
 .footer-list li:not(:last-child) {
