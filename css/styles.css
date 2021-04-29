@@ -546,6 +546,10 @@ color: var(--secondary-text-color);
     padding-bottom: 60px;
 }
 
+.icons-footer {
+    background: rgba(255, 255, 255, 0.1);
+}
+
 .footer {
     display: flex;
 }
