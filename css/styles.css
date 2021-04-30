@@ -544,10 +544,31 @@ color: var(--secondary-text-color);
 .footer-info {
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 .icons-footer {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-info-svg {
+ margin-left: 70px;
+}
+
+.footer-icons {
+    margin-top: 20px;
+}
+
+.footer-svg {
+    fill:var(--secondary-text-color)
+}
+
+.footer-title {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
 }
 
 .footer {
