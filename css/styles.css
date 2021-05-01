@@ -371,7 +371,8 @@ color: var(--primary-text-color);
     fill: var(--svg-primary-color);
 }
 
-.socials-icons-link:hover {
+.socials-icons-link:hover,
+.socials-icons-link:focus {
     background-color: var(--secondary-background-color);
 }
 
