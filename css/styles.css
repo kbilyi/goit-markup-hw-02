@@ -111,25 +111,23 @@ color: var(--primary-text-color);
     margin-left: 93px;
 }
 
+.header-links:hover .item{
+    color: var(--secondary-background-color);
+}
+
 .header-links .item {
     margin-right: 50px;
     display: block;
 }
 
-.header-links .item:last-child {
-    margin-right: 0px;
+.header-link:hover,
+.header-link:focus {
+    color: var(--secondary-background-color);
 }
 
 .adress-icon {
-    width: 16px;
-    height: 12px;
     fill: currentColor;
     margin-right: 10px;
-}
-
-.phone {
-    width: 10; 
-    height: 16;
 }
 
 .address-link {
@@ -149,6 +147,11 @@ color: var(--primary-text-color);
 
 .contacts {
     color: var(--accent-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--secondary-background-color);
 }
 
 /* --------------------------ЗАГОЛОВОК И КНОПКА------------------------- */
@@ -323,6 +326,9 @@ color: var(--primary-text-color);
     border-radius: 4px;
     display: block;
     color: var(--svg-primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
 
@@ -331,8 +337,6 @@ color: var(--primary-text-color);
  }
 
 .regular-clients-svg {
-    margin-left: 64px;
-    margin-top: 24px;  
     fill: currentColor;
 }
 
@@ -463,13 +467,9 @@ a {
 }
 
 a:hover {
-    color: var(--secondary-background-color);
     cursor:pointer;
 }
 
-a:focus {
-    color: var(--secondary-background-color);
-}
 
 li {
     list-style: none;
